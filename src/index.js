@@ -4,4 +4,12 @@ const firstObj = {
   height: "5 feet 11 inches"
 };
 
+const testObj = {
+  ...firstObj,
+  gender: "male",
+  idiot: true,
+};
+
+
 console.log(firstObj);
+console.log(testObj);
