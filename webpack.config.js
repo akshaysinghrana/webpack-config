@@ -1,3 +1,8 @@
+let mode = "development";
+
+if (mode.process.env.NODE_ENV === "production")
+  mode = "production"
+
 module.exports = {
   mode: "development",
 
